@@ -1,0 +1,15 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+#[project]
+#name = "optimizacao_dataframe"   #obrigatorio
+#version = "1.0.0"                 #obrigatorio
+#authors = [{ name = "Joao Paulo Gambaro", email = "joaopaulogambaro@gmail.com" }]
+#description = "Pacote para auxiliar na optimizacao de dataframes pandas"
+#requires-python = ">=3.7"
+#dependencies = ['pandas>=1.5.0']
+
+#[tool.setuptools]
+#py-modules = []

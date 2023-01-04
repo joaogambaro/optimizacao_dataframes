@@ -2,11 +2,9 @@
 import unittest
 import pandas as pd
 
-import modulos.analise_resultados as ana
-import modulos.optimizacao_dataframe as opt
-import pandas as pd
-
-from caminhos.paths import DADOS_DIR
+import optimizacaoDF.analise_resultados as ana
+import optimizacaoDF.optimizacao_dataframe as opt
+from tests.caminhos.paths import DADOS_DIR
 
 
 class TestFunc(unittest.TestCase):
@@ -74,9 +72,9 @@ class TestFunc(unittest.TestCase):
 
 
     def test_obtem_subtipos_1(self):
-        '''
-        Com o parametro "can_float_be_int=True"
-        '''
+
+        #Com o parametro "can_float_be_int=True"
+
 
         # carrega os dados
         str_file=DADOS_DIR/"dados_1.csv"
@@ -105,9 +103,9 @@ class TestFunc(unittest.TestCase):
 
     def test_obtem_subtipos_2(self):
 
-        '''
-        Com o parametro "can_float_be_int=False"
-        '''
+
+        #Com o parametro "can_float_be_int=False"
+
 
         # carrega os dados
         str_file=DADOS_DIR/"dados_1.csv"

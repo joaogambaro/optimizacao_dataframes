@@ -124,7 +124,7 @@ def menor_subtipo_num(col, downcast, df):
     encontra o menor subtipo para variáveis numéricas
     a partir de um tipo (downcast)
     '''
-    
+
     # encontra o menor tipo
     df_convertida = df[[col]]\
                     .apply(pd.to_numeric,downcast=downcast)
